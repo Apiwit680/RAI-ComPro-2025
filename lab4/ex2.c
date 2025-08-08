@@ -3,7 +3,7 @@ int main(){
 
 int i=1,num,sum=0;
 
-while(i<=5){
+while(i<=10){
     printf("%d. Enter your number : ",i);
     scanf("%d",&num);
     sum = num + sum;

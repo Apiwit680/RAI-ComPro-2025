@@ -12,9 +12,9 @@ sum=0;
         sum = sum + num;
         
     }
-        avrage = sum/10;
+        avrage = sum/10.00;
         printf("\nThe sum of number is %d\n",sum);
-        printf("The avrage of number is %.1f\n",avrage);
+        printf("The avrage of number is %.2f\n",avrage);
 
     return 0;
 }

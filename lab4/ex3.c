@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main(){
-int num,i,even_odd;
 
-    while(i){
+    int num,i,even_odd;
+
+    do{
 
         printf("Enter the number :");
         scanf("%d",&num);
 
         if (num == 0){
-            printf("Exiting Program\n ");
+            printf("Exiting Program... Bye\n ");
             break;
         }
 
@@ -26,5 +27,8 @@ int num,i,even_odd;
         }
         
 }
+    while(i);
+
+
     return 0;
 }
