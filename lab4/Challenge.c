@@ -43,6 +43,6 @@ int main(){
         }   
     while (i != 4);
     printf("Thank you for using the ATM.\n");    
-   
-    }
     
+    return 0;
+    }
